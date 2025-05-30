@@ -3,6 +3,8 @@
 .catalog {
   box-sizing: border-box;
   display: grid;
+  justify-content: center;
+  align-content: center;
   gap: 48px 46px;
   padding: 50px 40px;
   @include responsive-columns(1);
